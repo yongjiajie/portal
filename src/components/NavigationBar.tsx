@@ -18,7 +18,7 @@ const NavigationBar: FunctionComponent<NavigationBarProps> = ({
       <div className="flex flex-row items-center gap-x-8">
         <label
           htmlFor="toggle"
-          className="cursor-pointer select-none font-display text-20 hover:text-slate-600 dark:hover:text-amber-300"
+          className="cursor-pointer select-none font-display text-20 hover:text-slate-500 dark:hover:text-amber-300"
         >
           Make it {isDarkMode ? "light" : "dark"}
         </label>
