@@ -11,6 +11,12 @@ This was created because I wanted to dabble in front-end technologies, as well a
 - [Gatsby](https://www.gatsbyjs.com/): I wanted to examine how the developer experience differs from [Next.js](https://nextjs.org/).
 - [Tailwind CSS](https://tailwindcss.com/): I wanted to examine the pros and cons of their utility-first approach to CSS.
 
+## Features
+
+Mainly features that I learnt from this!
+
+- Toggle between dark and light mode.
+
 ## Getting started
 
 Run this locally on `http://localhost:8000`:
