@@ -1,6 +1,8 @@
 # Portal
 
-My personal webpage built with [Gatsby](https://www.gatsbyjs.com/), [Tailwind CSS](https://tailwindcss.com/), and TypeScript.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/64c4284c-cc0b-475a-bb0e-7e7108ccb041/deploy-status)](https://app.netlify.com/sites/optimistic-ardinghelli-f71e16/deploys)
+
+My personal webpage built with [Gatsby](https://www.gatsbyjs.com/), [Tailwind CSS](https://tailwindcss.com/), and [TypeScript](https://www.typescriptlang.org/). This is deployed using [Netlify](https://www.netlify.com/).
 
 This was created because I wanted to dabble in front-end technologies, as well as create my own webpage and blog.
 
