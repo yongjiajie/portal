@@ -6,7 +6,9 @@ const IndexPage = () => {
 
   return (
     <div className="align-center flex justify-center">
-      <h1 className="text-gradient font-display text-128">COMING SOON</h1>
+      <h1 className="text-gradient font-display text-32 md:text-96 lg:text-128">
+        COMING SOON
+      </h1>
     </div>
   );
 };
