@@ -1,12 +1,36 @@
 import { Link } from "gatsby";
-import React from "react";
+import React, { Dispatch, FunctionComponent, SetStateAction } from "react";
 
-const NavigationBar = () => {
+type NavigationBarProps = {
+  isDarkMode: boolean;
+  setIsDarkMode: Dispatch<SetStateAction<boolean>>;
+};
+
+const NavigationBar: FunctionComponent<NavigationBarProps> = ({
+  isDarkMode,
+  setIsDarkMode,
+}) => {
   return (
-    <nav className="flex h-64 flex-row p-16">
+    <nav className="flex h-64 flex-row justify-between py-16 px-32">
       <Link className="font-display" to="/">
         YJJ
       </Link>
+      <div className="flex flex-row items-center gap-x-8">
+        <label
+          htmlFor="toggle"
+          className="cursor-pointer font-display text-20 hover:text-slate-600 dark:hover:text-amber-300"
+        >
+          Make it {isDarkMode ? "light" : "dark"}
+        </label>
+        <input
+          type="checkbox"
+          name="toggle"
+          id="toggle"
+          className="hidden cursor-pointer"
+          checked={isDarkMode}
+          onChange={(event) => setIsDarkMode(event.target.checked)}
+        />
+      </div>
     </nav>
   );
 };

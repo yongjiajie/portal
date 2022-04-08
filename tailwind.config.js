@@ -2,6 +2,7 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  darkMode: "class",
   theme: {
     spacing: {
       0: "0px",
@@ -33,6 +34,7 @@ module.exports = {
       14: "14px",
       16: "16px",
       18: "18px",
+      20: "20px",
       24: "24px",
       32: "32px",
       48: "48px",

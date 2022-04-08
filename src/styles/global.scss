@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @layer components {
-  .input-toggle {
-    @apply hidden h-0 w-0;
+  body {
+    @apply bg-white text-black dark:bg-black dark:text-white;
   }
 }
 
