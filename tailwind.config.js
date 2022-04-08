@@ -1,0 +1,53 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    spacing: {
+      0: "0px",
+      1: "1px",
+      2: "2px",
+      4: "4px",
+      6: "6px",
+      8: "8px",
+      12: "12px",
+      16: "16px",
+      24: "24px",
+      32: "32px",
+      48: "48px",
+      56: "56px",
+      64: "64px",
+      72: "72px",
+      88: "88px",
+      96: "96px",
+      128: "128px",
+      144: "144px",
+      160: "160px",
+      176: "176px",
+      192: "192px",
+    },
+    fontSize: {
+      8: "8px",
+      10: "10px",
+      12: "12px",
+      14: "14px",
+      16: "16px",
+      18: "18px",
+      24: "24px",
+      32: "32px",
+      48: "48px",
+      56: "56px",
+      64: "64px",
+      72: "72px",
+      96: "96px",
+      128: "128px",
+    },
+    extend: {
+      fontFamily: {
+        sans: ['"Atkinson Hyperlegible"', ...defaultTheme.fontFamily.sans],
+        display: ['"Fredoka One"', ...defaultTheme.fontFamily.sans],
+      },
+    },
+  },
+  plugins: [],
+};

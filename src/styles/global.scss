@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input-toggle {
+    @apply hidden h-0 w-0;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-purple-200 via-indigo-400 to-purple-200 bg-clip-text text-transparent;
+  }
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/AtkinsonHyperlegible-Regular.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fredoka One";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/FredokaOne-Regular.ttf");
+  font-display: swap;
+}
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-family: "Atkinson Hyperlegible", Arial, Helvetica, sans-serif;
+}
