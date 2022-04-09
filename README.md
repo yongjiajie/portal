@@ -13,9 +13,9 @@ This was created because I wanted to dabble in front-end technologies, as well a
 
 ## Features
 
-Mainly features that I learnt from this!
+Features that I find notable!
 
-- Toggle between dark and light mode.
+- Toggle between dark and light mode using React states and Tailwind utility classes.
 
 ## Getting started
 
