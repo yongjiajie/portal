@@ -1,28 +1,15 @@
 ---
-import "../styles/global.css";
-import Navigation from "../components/Navigation.astro";
+import "../styles/global.scss";
+import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
 
-const title = "About Me";
+const title = "about";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-	</head>
-	<body>
-    <Navigation />
-
-		<h1>{title}</h1>
-    <h2>Who?</h2>
-    <p>A software engineer in Singapore, who is interested in all things technology. I work with Typescript and AWS. I aspire to change lives with what I do.</p>
-    <h2>What?</h2>
-    <p>I write about anything under the sun, especially when it is close to my heart. I started this blog to practice filtering my thoughts into words.</p>
-
-    <Footer />
-	</body>
-</html>
+<BaseLayout title={title}>
+  <h2>who?</h2>
+  <p>A software engineer in Singapore, who is interested in all things technology. I work with Typescript and AWS. I aspire to change lives with what I do.</p>
+  <h2>what?</h2>
+  <p>I write about anything under the sun, especially when it is close to my heart. I started this blog to practice filtering my thoughts into words.</p>
+</BaseLayout>

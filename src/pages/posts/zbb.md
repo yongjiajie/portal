@@ -1,13 +1,11 @@
 ---
-title: "Why You Should Manage Your Money with ZBB"
+layout: ../../layouts/MarkdownPostLayout.astro
+title: "Why You Should Manage Your Money (With ZBB)"
+description: ""
 created: 2023-02-01
-description: "Managing your money with zero-based budgeting"
 author: "lucida"
-categories: ["advice", "personal finance"]
-tags: ["zbb"]
+tags: ["advice", "personal finance"]
 ---
-
-# You Should Manage Your Money (with ZBB)
 
 ## What is ZBB?
 
