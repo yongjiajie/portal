@@ -3,14 +3,14 @@
 $content-width: 80ch;
 $footer-height: 20rem;
 
-$font-size: 24px;
+$font-size: 18px;
 
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
 	background-color: colors.$color-base;
   position: relative;
   min-height: 100vh;
@@ -21,6 +21,7 @@ body {
 	color: colors.$color-text;
   font-size: $font-size;
   margin: 0 auto;
+  line-height: 1.5;
 }
 
 a {
