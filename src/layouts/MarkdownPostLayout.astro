@@ -9,7 +9,7 @@ const { frontmatter } = Astro.props;
   <div class="frontmatter">
     <p>{frontmatter.created.slice(0, 10)}</p>
     <div class="frontmatter">
-      {frontmatter.tags.map((tag) => (
+      {frontmatter.tags.map((tag: string) => (
         <p><a href={`/tags/${tag}`}>{tag}</a></p>
       ))}
     </div>
