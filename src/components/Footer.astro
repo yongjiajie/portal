@@ -1,8 +1,5 @@
 ---
 import Social from "./Social.astro";
-
-const allPosts = await Astro.glob("../pages/posts/*.md");
-const allTags = [...new Set(allPosts.flatMap((post) => post.frontmatter.tags))];
 ---
 
 <footer>
@@ -19,14 +16,6 @@ const allTags = [...new Set(allPosts.flatMap((post) => post.frontmatter.tags))];
       </ul>
     </div>
     <div class="right">
-      <p>tags</p>
-      <ul>
-        {allTags.map((tag) => (
-          <li>
-            <a href={`/tags/${tag}`}>{tag}</a>
-          </li>
-        ))}
-      </ul>
     </div>
   </div>
 </footer>
